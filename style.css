@@ -1,0 +1,386 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
+body{
+    background: linear-gradient(45deg, rgb(165, 181, 212), rgb(161, 196, 158));
+}
+.antispam { display:none;}
+
+.cuerpo{
+    margin: 0 auto;
+    width: 95%;
+    /* background-image: url(img/2.webp); */
+}
+/* MEDIA QUERYS */
+/* For mobile phones: */
+@media (max-width: 576px) {
+    
+    [class*="col-"] {
+        display: flex;
+        width: 100%;
+    }
+}
+  
+@media only screen and (max-width: 600px) {
+    #logo {
+      width: 110px;
+    }
+    #eww{
+        width: 170px;
+    }
+  }
+
+ 
+/* Tamaño imagenes */
+@media screen and (min-width: 800px) {
+    .imgWeb {
+      width: 75%;
+      display: block;
+     }
+     #logo {
+        width: 80%;
+      }
+
+}
+
+#vermicultura ul{
+    margin: 0 10%;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    height: 100%;
+}
+
+#vermicultura,#porque,#como,#nosotros,#contacto,#mercado{
+    padding-top: 5%;
+}
+
+.mercadito{
+    margin-right: 25px;
+}
+.videoDiv{
+    width: 70%; /*or whatever % you prefer*/
+    margin: 0 auto;
+    display: block;
+}
+
+#contacto a{
+    color: black;
+}
+#nosotros ul{
+    margin: 0 10%;
+}
+
+
+#porque img{
+    border-radius: 42px;
+}
+.merc{
+    color:blue;
+}
+form{
+    margin: 0 auto auto 0;
+}
+fieldset{
+    padding: 5%;
+    padding-bottom: 10px;
+    display: block;
+    border-width: 3px;
+    border-style: ridge;
+    border-color: rgb(243, 186, 75);
+    border-image: initial;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 26px;
+    width: 100%;
+}
+legend {
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none;
+    border: none;
+    /* width: 109%; */
+}
+label{
+    display: inline-block;
+    width: 75px;
+}
+
+iframe{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: -webkit-fill-available;
+}
+hr{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    border-width: 10px;
+}
+
+.parrEntrenador{
+    padding-right: 15px;
+}
+
+ul{
+    list-style-type:none;
+}
+
+box{
+    margin-right: 10px;
+}
+.Claudio{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+p2{
+    font-size: 12px;
+}
+
+
+/*
+    *FOOTER
+*/
+ul#mapa li{
+    display: inline;
+    list-style-type: none;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    margin: 2px;
+}
+ul#mapa a{
+    color:rgb(60, 18, 138);
+}
+#mapa{
+    
+    margin-bottom: 0px;
+}
+
+
+footer {
+    text-align: center;
+    /* height: auto; */
+    background-color: rgb(198, 202, 209);
+    margin-top: 5%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-top: 4%;
+}
+
+
+footer a{
+    transform: scale(.6);
+
+}
+
+
+.botonSoc {
+    display: inline-block;
+    border: 2px solid #057EB8;
+    border-radius: 100%;
+    padding: 5px;
+    width: 45px;
+    height: 45px;
+    background: #e0ebe8;
+    text-decoration: none;
+    font-size: 25px;
+}
+.redesSoc{
+    font-size: 30px;
+    
+}
+.parrEntrenador .redesSoc{
+    color: black;
+}
+
+imput{
+    width: 150px;
+}
+
+footer p{
+    display: inline-block;
+}
+#nah{
+    display: inline-bl;
+}
+
+.icon1 {
+    background: url('img/MLlogo.png');
+    height: 28px;
+    width: 39px;
+    display: inline-block;
+    /* Other styles here */
+}
+#instaFoto{
+    animation-name: fotin;
+    animation-duration: 0.5s;
+    animation-iteration-count: 3;
+
+}
+@keyframes fotin {
+    20% {
+        transform: scale(0.5);
+        opacity: 0.5;
+    }
+}
+
+#instaFoto:hover {
+    animation-name: fotasa;
+    animation-duration: 0.5s;
+    animation-iteration-count: 3;
+
+}
+@keyframes fotasa {
+    20% {
+        transform: scale(0.5);
+        opacity: 0.5;
+        background: white;
+    }
+}
+
+
+#faceAnim{
+    animation-name: caida;
+    animation-duration: 4s;
+    position: relative;
+
+}
+@keyframes caida {
+    0% {
+        top: -20px;
+        
+    }
+    50% {
+      top: 5px;
+      left: 0px;
+      transform: rotate(90deg);
+      
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+      transform: rotate(20deg);
+    }
+}
+.redesParque i{
+    font-size: 30px;
+}
+.redesParque{
+    
+    display: inline-block;
+}
+
+
+.parr{
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5rem
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+
+    text-align: center;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 4.25rem;
+    border-top-right-radius: 4.25rem;
+    
+   
+}
+.list-group-item:last-child {
+
+    border-bottom-left-radius: 4.25rem;
+    
+    border-bottom-right-radius: 4.25rem;    
+   
+}
+
+
+.manual{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.p-4 {
+    padding: 1.5rem!important;
+    border-radius: 45px;
+}
+
+.img-fluid {
+    max-width: 80%;
+    height: auto;
+}
+
+.formulario {
+    width: 78%;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.btn {
+    display: block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+textarea {
+    overflow: auto;
+    resize: both;
+    width: 177px;
+}
+
+.frame{
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+}
+
+.foot{
+    /* border: outset; */
+    /* border-radius: 26px; */
+    text-ali: -webkit-match-parent;
+}
