@@ -5,6 +5,7 @@
         @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
         @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
         @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
         </style>
   <script>
     window['_fs_debug'] = false;
@@ -61,7 +62,7 @@
 <body>
   <div class="cuerpo">
     <!--BARRA DE NAVEGACION-->    
-      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" > 
+      <nav class="barraNav-top navbar navbar-expand-lg navbar-light bg-light sticky-top" > 
         <a class="navbar-brand" href="#" alt="logo">
         <img src="img/logo2.webp" class="d-inline-block align-top img-responsive col-xs-12" alt="Logo vermiba" id="logo"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -102,7 +103,7 @@
 
     <section id="vermicultura"> <!-- VERMI -->
                    
-        <div class="bg-dark p-4">
+        <div class="card-vermi p-4">
                 <h1 class="text-white h9">Vermicultura y usted</h1>
                 <span class="text-muted">
                   <h1>¿Qué es la vermicultura?</h1>
@@ -126,17 +127,17 @@
     
     <section id="porque"> <!-- porque -->
                    
-      <div class="alert-warning p-4">
+      <div class="card-why p-4">
               <span class="bg-dark">
                 <h1>Porque es importante?</h1>
                 <p class="text-center parr">
                     <img class="img-fluid imgWeb" src="img/comida.webp" alt="Generic placeholder image" >
-                    <br>
-                    <br>
+                    
+                   
                     Los residuos organicos domesticos representan el <i >50%</i> de lo que tiramos a la basura semanalmente.    
                     
-                    <br><br>
-                    (y ni hablar si en tu casa toman mate!) 
+                    <br><strong>
+                    (y ni hablar si en tu casa toman mate!)</strong> 
                 <br><br>
                 Estos terminan en vertederos contaminando suelo, atrayendo pestes y generando enfermedades.
 
@@ -170,6 +171,8 @@
                           <li class="list-group-item">  Ayudamos al medio ambiente!
                           </li>
                           <li class="list-group-item">  Si compostamos creamos <strong><i>valor</i></strong>, algo que era considerado un <i>desperdicio</i> pasa a tener un valor que se puede <strong>medir</strong>. 
+                          </li>
+                          <li class="list-group-item">Es muy facil crear un mini emprendimiento, ya sea produciendo alimentos o lombricompuesto.   
                           </li>
 
                         </ul>
@@ -250,6 +253,8 @@
           <form class="col" method="post" action="submit.php"><!-- CONTACTO -->
             <fieldset>
                 <legend><h1>Contactanos</h1></legend>
+                 <p>Dejanos tus dudas via mail o por Facebook. </p>  
+
                   <label for="name">Nombre: <input name="name" /></label><br>
                   
                   <label for="email">E-mail: <input name="email" /></label><br>
@@ -264,22 +269,30 @@
                   <div>
                   
                   <label for="message"><textarea name="message" col="50" placeholder="Tu consulta aqui..."></textarea></label>
-                  <button type="submit" class="btn btn-dark" value="Send">
-                    <i class="fa fa-paper-plane"></i> Enviar
-                </button>
+                  
               </div>   
+              <button type="submit" class="btn btn-dark" value="Send">
+                <i class="fa fa-paper-plane"></i> Enviar
+            </button>
         
             </fieldset>   
                 
           </form>   
-          <div class="col pl-0">
+          <div class="col">
             
-            <br>
-           <hr>
-           <div class="col">
-                <p2>Necesitas mas info? No estas seguro de como empezar? Dejanos tus dudas y las responderemos a la brevedad!</p2>
+                    
+           
+              <hr>
+
+              <div class="elface">
+                  <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fvermiba&tabs=messages&width=250&height=250&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=195560768055084" width="250" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+              </div>
+            
+
+              
+                <p2>¿Necesitas mas info? ¿No estas seguro de como empezar? Dejanos tus dudas y las responderemos a la brevedad!</p2>
                 
-           </div>    
+              
             <br>
           
       </div>  
@@ -300,17 +313,19 @@
     <p class="manual">
     Buscanos en Mercadolibre: <a href="https://listado.mercadolibre.com.ar/_CustId_84034242" title="">VermiBA</a><br>
     
+    
     Todas las publicaciones contienen:
     <ul class="manual">
-    <li>* Bolsita/caja reciclable.
+    <li> Bolsita/caja reciclable.
     </li>
-    <li>* Asesoramiento individual en todo el proceso.</li>
-    <li>* Vienen en todas las etapas, cocones (huevecillos de lombriz) que pueden dar entre 2 y 10 lombrices, juveniles y adultas.
+    <li> Asesoramiento individual en todo el proceso.</li>
+    <li> Vienen en todas las etapas, cocones (huevecillos de lombriz) que pueden dar entre 2 y 10 lombrices, juveniles y adultas.
     </li>
-    <li>* Siempre ponemos de mas!.
+    <li> Siempre ponemos de mas!.
     </li>
-    <li>* Ademas de comida para una semana aprox.</li>
+    <li> Ademas de comida para una semana aprox.</li>
     </ul>
+ 
     </p>
     <div class="row">
     
@@ -320,9 +335,11 @@
     <div class="card text-center">
     <img class="card-img-top img-fluid " src="img/pack300.webp" alt="Card image cap">
     <div class="card-body">
-    <h5 class="card-title">Pack Intermedio: 300$</h5>
+    <h5 class="card-title">Pack Intermedio: 350$</h5>
     <p class="card-text">Acelera el compostaje con este pack! Incluye manual de uso básico/avanzado por mail/whatsapp.</p>
-    <button type="button" class="btn btn-warning" target="_blank" rel="noopener"><a href="https://articulo.mercadolibre.com.ar/MLA-757773492-lombriz-roja-californianax300-manualasesoria-compostaje-_JM?quantity=1" title="" target="_blank" rel="noopener">Compralo</a></button>
+
+    
+    <button type="button" class="btn btn-merc" target="_blank" rel="noopener"><a href="https://articulo.mercadolibre.com.ar/MLA-757773492-lombriz-roja-californianax300-manualasesoria-compostaje-_JM?quantity=1" title="" target="_blank" rel="noopener">COMPRAR</a></button>
     
     
     </div>
@@ -333,10 +350,10 @@
     <div class="card text-center">
     <img class="card-img-top img-fluid " src="img/pack500.webp" alt="Card image cap">
     <div class="card-body">
-    <h5 class="card-title">Pack Pro: 500$</h5>
-    <p class="card-text">Maxima población para el pequeño compostador. Producí montones de humus al mes! Incluye manual de uso básico/avanzado por mail/whatsapp.</p>
-    <button type="button" class="btn btn-warning">
-    <a href="https://articulo.mercadolibre.com.ar/MLA-757374965-lombriz-roja-californiana-x500manualasesoria-villa-urquiza-_JM?quantity=1" title="" target="_blank" rel="noopener">Compralo</a>
+    <h5 class="card-title">Pack Pro: 600$</h5>
+    <p class="card-text">Mas de 550 lombrices. Maxima población para el pequeño compostador. Producí montones de humus al mes! Incluye manual de uso básico/avanzado por mail/whatsapp.</p>
+    <button type="button" class="btn btn-merc">
+    <a href="https://articulo.mercadolibre.com.ar/MLA-813759941-lombriz-californiana-200g-mas-manual-villa-urquiza-zona-sur-_JM?quantity=1" title="" target="_blank" rel="noopener">COMPRAR</a>
     </button>
     </div>
     </div>
@@ -346,9 +363,55 @@
     </div>
   </section>
     <!-- MERCADITO-->
+
+
+    <!-- Default dropup button -->
+<div class="btn-group dropup barrafoot">
+    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="navbar-brand" href="#" alt="logo">
+            <img src="img/logo2.webp" class="d-inline-block align-top img-responsive col-xs-12" alt="Logo vermiba" id="logo"></a>
+    </button>
+    <div class="dropdown-menu">
+      <!-- Dropdown menu links -->
+      <div class="" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.php#vermicultura">Vermicultura y usted
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.php#porque">Porque</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.php#como">Como</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index.php#contacto">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h3 lead" href="vermiblog.html" target="_blank" rel="noopener">VermiBA-blog</a>
+            </li>
+          </ul>
+      <!--REDES -->
+      <div  class="redesParque">
+          
+          <a id="faceAnim" href="https://www.facebook.com/vermiba/" target="_blank" rel="noopener"><i class="redesSoc fa fa-facebook"></i></a>
+       
+          <a id="twitybarra" onmouseover="playAudio()" href="https://listado.mercadolibre.com.ar/_CustId_84034242" target="_blank" rel="noopener"><i class="redesSoc icon1" onmouseover="playAudio()"></i></a>
+      </div>
+        
+    </div>
+    </div>
+</div>
+
+
+
  
-    
-    <footer class="align-content-center"> <!--FOOTER-->
+
+    <!--FOOTER-->
+    <!-- <footer class="align-content-center"> 
         <div class="foot">
           <ul id="mapa">
               <li>
@@ -370,7 +433,7 @@
           <p id="nah">Web por MJ ©(2018)</p>
           
       </div>
-    </footer>
+    </footer> -->
 
   </div> <!-- CIERRE CUERPO-->
 

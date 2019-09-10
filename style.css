@@ -24,7 +24,15 @@ body{
         display: flex;
         width: 100%;
     }
+    
+    fieldset h1 {
+    font-size: 3rem;
+    }
 }
+
+
+
+
   
 @media only screen and (max-width: 600px) {
     #logo {
@@ -33,6 +41,14 @@ body{
     #eww{
         width: 170px;
     }
+    iframe {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 95%;
+    }
+
+
   }
 
  
@@ -59,6 +75,17 @@ img{
 
 .card{
     height: 100%;
+    height: 100%;
+    zoom: 1.3;
+    /* margin: 15%; */
+    /* padding: 3%; */
+    border-radius: 45px;
+    padding-top: 5%;
+    /* border: 2px; */
+    background-color: #dbf1e5;
+    background-clip: border-box;
+    border: 2px solid rgba(35, 184, 138, 0.39);
+    border-radius: 40px;
 }
 
 #vermicultura,#porque,#como,#nosotros,#contacto,#mercado{
@@ -91,18 +118,20 @@ img{
 form{
     margin: 0 auto auto 0;
 }
-fieldset{
+fieldset {
     padding: 5%;
     padding-bottom: 10px;
-    display: block;
+    /* display: block; */
     border-width: 3px;
-    border-style: ridge;
-    border-color: rgb(243, 186, 75);
+    border-style: dashed;
+    border-color: rgb(140, 127, 101);
     border-image: initial;
     margin-left: auto;
     margin-right: auto;
     border-radius: 26px;
-    width: 100%;
+    /* width: 100%; */
+    padding-left: 10%;
+    padding-right: auto;
 }
 legend {
     font-size: 30px;
@@ -119,11 +148,11 @@ label{
     width: 75px;
 }
 
-iframe{
+iframe {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: -webkit-fill-available;
+
 }
 hr{
     width: 75%;
@@ -136,9 +165,12 @@ hr{
     padding-right: 15px;
 }
 
-ul{
-    list-style-type:none;
-}
+
+    ul {
+        list-style-type: circle;
+        padding-left: 4%;
+    }
+
 
 box{
     margin-right: 10px;
@@ -326,10 +358,13 @@ h1{
     display: block;
     max-width: 80%;
     height: auto;
+    border-radius: 20px;
+    border: 2px rebeccapurple;
+    box-shadow: 5px 5px 2px 0px #7b4c4c4a;
 }
 
 .formulario {
-    width: 78%;
+    width: 95%;
     /* text-align: center; */
     margin-left: auto;
     margin-right: auto;
@@ -345,27 +380,27 @@ h1{
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: .5rem 1rem;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    padding: 1rem;
 }
 
 .btn {
-    /* display: block; */
-    font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: .25rem;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+       /* display: block; */
+       font-weight: 400;
+       text-align: center;
+       white-space: nowrap;
+       vertical-align: middle;
+       -webkit-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
+       border: 2px solid #59ade82e;
+       padding: .375rem .75rem;
+       font-size: 1rem;
+       line-height: 1.5;
+       border-radius: .25rem;
+       transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+       border-radius: 31px;
+   
 }
 
 textarea {
@@ -377,18 +412,61 @@ textarea {
 .frame{
     margin-right: auto;
     margin-left: auto;
-    width: fit-content;
+    width: 270px;
 }
 
 .foot{
     /* border: outset; */
     /* border-radius: 26px; */
-    text-ali: -webkit-match-parent;
+    text-align: -webkit-match-parent;
+}
+
+.barraNav-bott,.barraNav-top {
+    font-size: 1.5rem;
+    font-family: 'Anton', sans-serif;
+}
+.barraNav-bott {
+    border-top-left-radius: 30px; 
+    border-top-right-radius: 30px; 
+    margin-top:2%;
+}
+
+.barraNav-top {
+    border-bottom-left-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+
+}
+
+.card-vermi{
+    background-color: #ecd23a;
+
+}
+.card-why {
+    background-color: #1e893e;
+    color: #ecd23a;
 }
 
 
 
 @media only screen and (min-width: 768px) {
+    #vermicultura .frame {
+        
+            margin-right: auto;
+            margin-left: auto;
+            /* width: 469px; */
+            text-align: center;
+        
+    }
+    .navbar-collapse {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        -ms-flex-positive: 1;
+        flex-grow: 0;
+        -ms-flex-align: center;
+        align-items: center;
+        /* margin-right: auto; */
+        /* margin-left: auto; */
+    }
     .img-fluid {
         max-width: 50%;
         height: auto;
@@ -404,7 +482,8 @@ textarea {
 
     p2 {
         font-size: 2.5rem;
-        font-style: italic;
+        /* font-family: "Monserrat"; */
+        font-family: 'Anton', sans-serif;
     }
 
     ul#mapa a {
@@ -431,4 +510,61 @@ textarea {
         margin-bottom: 1%;
     }
 
+    iframe {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    
+    }
+
+}
+
+button, input, optgroup, select, textarea {
+    /* margin: 0; */
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border-radius: 14px;
+}
+
+.alert-success {
+    color: #383d41;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.elface {
+       margin: 0 auto;
+       text-align: center;
+}
+
+
+    .btn-face {
+        background-color: #007bff;
+        border: 2px solid #83dad6f2;
+    }
+    .btn-merc {
+        background-color: #ffe600;
+        border: 2px solid #dca21ff2;
+        box-shadow: 2px 2px 0px 0px #dc2d2da8;
+    }
+
+    .btn-merc a {
+        color: #ffffff;
+        text-decoration: none;
+        /* background-color: #f38c8c00; */
+        -webkit-text-decoration-skip: objects;
+        font-weight: 700;
+        /* box-shadow: 3px 3px 5px 0px black; */
+        /* border-radius: 6px; */
+        text-shadow: 1px 2px 1px #ca1818;
+    }
+
+
+.barrafoot button{
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius:0px;
+
+    border-bottom-right-radius:0px;
 }
