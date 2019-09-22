@@ -26,7 +26,7 @@ body{
     }
     
     fieldset h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     }
 }
 
@@ -134,7 +134,7 @@ fieldset {
     padding-right: auto;
 }
 legend {
-    font-size: 30px;
+    font-size: 1.5rem;
     text-align: center;
     display: block;
     padding-left: 2px;
@@ -190,8 +190,7 @@ p2{
 ul#mapa li{
     display: inline;
     list-style-type: none;
-    border-style: solid;
-    border-radius: 5px;
+    
     border-width: 1px;
     margin: 2px;
 }
@@ -325,7 +324,7 @@ footer p{
 
 h1{
     font-family: 'Anton', sans-serif;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -341,6 +340,16 @@ h1{
     
     border-bottom-right-radius: 4.25rem;    
    
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.75rem 0.55rem;
+    margin-bottom: -6px;
+    background-color: #fff;
+    border: 1px solid rgba(77, 179, 239, 0.125);
+    font-size: 2rem;
 }
 
 
@@ -494,8 +503,7 @@ textarea {
     ul#mapa li {
         display: inline;
         /* list-style-type: hebrew; */
-        border-style: solid;
-        border-radius: 19px;
+      
         /* border-width: 4px; */
         margin: 35px;
         /* padding: 1%; */
@@ -559,8 +567,24 @@ button, input, optgroup, select, textarea {
         text-shadow: 1px 2px 1px #ca1818;
     }
 
+    .barrafoot {
+        width: auto;
+        /* height: 188px; */
+        text-align: center;
+        margin-top: 2%;
+        /* background-color: white; */
+    }
 
 .barrafoot button{
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius:0px;
+
+    border-bottom-right-radius:0px;
+}
+
+.barrafoot button:hover, button::after {
     background-color: white;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;

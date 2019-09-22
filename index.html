@@ -365,53 +365,14 @@
     <!-- MERCADITO-->
 
 
-    <!-- Default dropup button -->
-<div class="btn-group dropup barrafoot">
-    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <a class="navbar-brand" href="#" alt="logo">
-            <img src="img/logo2.webp" class="d-inline-block align-top img-responsive col-xs-12" alt="Logo vermiba" id="logo"></a>
-    </button>
-    <div class="dropdown-menu">
-      <!-- Dropdown menu links -->
-      <div class="" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.php#vermicultura">Vermicultura y usted
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.php#porque">Porque</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.php#como">Como</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="index.php#contacto">Contacto</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link h3 lead" href="vermiblog.html" target="_blank" rel="noopener">VermiBA-blog</a>
-            </li>
-          </ul>
-      <!--REDES -->
-      <div  class="redesParque">
-          
-          <a id="faceAnim" href="https://www.facebook.com/vermiba/" target="_blank" rel="noopener"><i class="redesSoc fa fa-facebook"></i></a>
-       
-          <a id="twitybarra" onmouseover="playAudio()" href="https://listado.mercadolibre.com.ar/_CustId_84034242" target="_blank" rel="noopener"><i class="redesSoc icon1" onmouseover="playAudio()"></i></a>
-      </div>
-        
-    </div>
-    </div>
-</div>
+
 
 
 
  
 
-    <!--FOOTER-->
-    <!-- <footer class="align-content-center"> 
+   
+    <footer class="align-content-center"> 
         <div class="foot">
           <ul id="mapa">
               <li>
@@ -433,7 +394,7 @@
           <p id="nah">Web por MJ ©(2018)</p>
           
       </div>
-    </footer> -->
+    </footer>
 
   </div> <!-- CIERRE CUERPO-->
 
