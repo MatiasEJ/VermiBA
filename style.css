@@ -16,7 +16,7 @@ body {
 
 .cuerpo {
     margin: 0 auto;
-    width: 95%;
+    width: 100%;
     /* background-image: url(img/2.webp); */
 }
 
@@ -51,7 +51,8 @@ body {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        width: 95%;
+        justify-content: center;
+        display: flex;
     }
 
 
@@ -173,15 +174,15 @@ img {
 
 .card {
     height: 100%;
-    margin: 3%;
-    padding: 3%;
+    /* margin: 3%; */
+    /* padding: 3%; */
     border-radius: 45px;
-    /* padding-top: 5%; */
+    padding-top: 5%;
+    margin-top: 3%;
     /* border: 2px; */
     background-color: #dbf1e5;
     background-clip: border-box;
     border: 2px solid rgba(35, 184, 138, 0.39);
-   
 }
 
 #vermicultura,
@@ -265,7 +266,8 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-
+    justify-content: center;
+    display: flex;
 }
 
 hr {
@@ -493,10 +495,12 @@ h1 {
 }
 
 .formulario {
-    width: 95%;
+    /* width: 95%; */
     /* text-align: center; */
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    border-radius: 45px;
+    padding: 4%;
 }
 
 .navbar {
@@ -538,11 +542,7 @@ textarea {
     width: 177px;
 }
 
-.frame {
-    margin-right: auto;
-    margin-left: auto;
-    width: 270px;
-}
+
 
 .foot {
     /* border: outset; */
@@ -601,8 +601,12 @@ textarea {
 }
 
 .elface {
-    margin: 0 auto;
-    text-align: center;
+    margin: auto;
+    /* text-align: center; */
+    /* width: max-content; */
+    display: flex;
+    /* width: 90%; */
+    justify-content: center;
 }
 
 
@@ -678,10 +682,9 @@ button::after {
 }
 
 #calculadora {
-    width: 82%;
+    width: 95%;
     /* grid-area: c; */
-    padding: 5%;
-   
+    /* padding: 5%; */
     padding-top: 0%;
     /* margin-top: 5%; */
     display: grid;
