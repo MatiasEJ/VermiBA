@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
 
 body {
-    background: linear-gradient(45deg, rgb(165, 181, 212), rgb(161, 196, 158));
+    background: linear-gradient(45deg, rgb(136, 155, 194), rgb(161, 196, 158));
 }
 
 .antispam {
@@ -173,15 +173,15 @@ img {
 
 .card {
     height: 100%;
-    /* margin: 15%; */
-    /* padding: 3%; */
+    margin: 3%;
+    padding: 3%;
     border-radius: 45px;
-    padding-top: 5%;
+    /* padding-top: 5%; */
     /* border: 2px; */
     background-color: #dbf1e5;
     background-clip: border-box;
     border: 2px solid rgba(35, 184, 138, 0.39);
-    /* border-radius: 40px; */
+   
 }
 
 #vermicultura,
@@ -191,7 +191,7 @@ img {
 #contacto,
 #mercado,
 #calculadora {
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 .mercadito {
@@ -628,6 +628,18 @@ textarea {
     text-shadow: 1px 2px 1px #ca1818;
 }
 
+.btn-calc{
+    box-shadow: 2px 3px 0px 2px #9c27b038;
+    border: 3px #651b1b57;
+    border-style: groove;
+    transform: matrix(1.4, 0, 0, 1.4, 0, 18);
+    background-color: #d5a6a6;
+    font-family: auto;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
 .barrafoot {
     width: auto;
     /* height: 188px; */
@@ -666,16 +678,20 @@ button::after {
 }
 
 #calculadora {
+    width: 82%;
+    /* grid-area: c; */
     padding: 5%;
-    margin-top: 5%;
+   
+    padding-top: 0%;
+    /* margin-top: 5%; */
     display: grid;
     grid-template:
         "t"
         "tab"
-        "b"
-        /1fr;
+        "b" /1fr;
     font-size: 0.9rem;
     font-family: 'Montserrat', sans-serif;
+    margin: auto;
 }
 
 .converCalc {
@@ -744,14 +760,20 @@ button::after {
 
 
 
-.calc {
-    grid-area: calc;
-    margin-top: 2%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#calcu {
+    display: grid;
+    /* grid-template:
+        "c i"; */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
 }
-
+#infoCalc{
+    /* grid-area: i; */
+    align-self: center;
+    padding: 5%;
+    /* display: grid; */
+    width: 300px;
+}
 
 
 #calculadora input {

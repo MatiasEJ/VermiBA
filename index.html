@@ -323,69 +323,222 @@
       <div class="alert-success p-4 formulario">
 
 
-          <div class="row align-items-center p-4">
-  
-            <form class="col-sm" method="post" action="submit.php">
-              <!-- CONTACTO -->
-              <fieldset>
-                <legend>
-                  <h1>Contactanos</h1>
-                </legend>
-                <p>Dejanos tus dudas via mail o por Facebook. </p>
-  
-                <label for="name">Nombre: <input name="name"></label><br>
-  
-                <label for="email">E-mail: <input name="email"></label><br>
-  
-  
-                <label for="asunto">Asunto: <input name="asunto"></label><br>
-                <!-- Important: if you add any fields to this page, you will also need to update the php script -->
-  
-                <p class="antispam">Leave this empty:
-                  <br><input name="url"></p>
-                <br>
-                <div>
-  
-                  <label for="message"><textarea name="message" col="50" placeholder="Tu consulta aqui..."></textarea></label>
-  
-                </div>
-                <button type="submit" class="btn btn-dark" value="Send">
-                  <i class="fa fa-paper-plane"></i> Enviar
-                </button>
-  
-              </fieldset>
-  
-            </form>
-            <div class="col-sm">
-  
-  
-  
-              <hr>
-  
-              <div class="elface">
-                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fvermiba&amp;tabs=messages&amp;width=250&amp;height=250&amp;small_header=true&amp;adapt_container_width=false&amp;hide_cover=false&amp;show_facepile=false&amp;appId=195560768055084" width="250" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-              </div>
-  
-  
-  
-              <p2>¿Necesitas mas info? ¿No estas seguro de como empezar? Dejanos tus dudas y las responderemos a la
-                brevedad!</p2>
-  
-  
+        <div class="row align-items-center p-4">
+
+          <form class="col-sm" method="post" action="submit.php">
+            <!-- CONTACTO -->
+            <fieldset>
+              <legend>
+                <h1>Contactanos</h1>
+              </legend>
+              <p>Dejanos tus dudas via mail o por Facebook. </p>
+
+              <label for="name">Nombre: <input name="name"></label><br>
+
+              <label for="email">E-mail: <input name="email"></label><br>
+
+
+              <label for="asunto">Asunto: <input name="asunto"></label><br>
+              <!-- Important: if you add any fields to this page, you will also need to update the php script -->
+
+              <p class="antispam">Leave this empty:
+                <br><input name="url"></p>
               <br>
-  
+              <div>
+
+                <label for="message"><textarea name="message" col="50"
+                    placeholder="Tu consulta aqui..."></textarea></label>
+
+              </div>
+              <button type="submit" class="btn btn-dark" value="Send">
+                <i class="fa fa-paper-plane"></i> Enviar
+              </button>
+
+            </fieldset>
+
+          </form>
+          <div class="col-sm">
+
+
+
+            <hr>
+
+            <div class="elface">
+              <!-- <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fvermiba&amp;tabs=messages&amp;width=250&amp;height=250&amp;small_header=true&amp;adapt_container_width=false&amp;hide_cover=false&amp;show_facepile=false&amp;appId=195560768055084"
+                width="250" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe> -->
+
+              <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fnotes%2Fvermi-ba&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=195560768055084"
+                width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowTransparency="true" allow="encrypted-media"></iframe>
+
+
             </div>
-  
-  
-  
+
+
+
+            <p2>¿Necesitas mas info? ¿No estas seguro de como empezar? Dejanos tus dudas y las responderemos a la
+              brevedad!</p2>
+
+
+            <br>
+
           </div>
-  
-  
+
+
+
         </div>
+
+
+      </div>
 
 
     </section><!-- CONSULTAS CIERRE -->
 
+    
+    <!-- CAlCULADORA-->
+    <section id="calcu" class="card">
+      <div id="calculadora">
+        <div class="converCalc">
+          <h2>Calculadora de lombrices</h2>
+
+
+        </div>
+
+
+        <div class="tab">
+
+          <div class="conv">
+            <table>
+              <tr>
+                <td colspan="3" id="titConv">Conversor lombrices a gramos de lombriz. </td>
+
+              </tr>
+              <tr>
+                <td></td>
+                <td>Unidad</td>
+                <td>Gramos</td>
+              </tr>
+              <tr>
+                <td>Lombrices x gr.</td>
+                <td>
+                  <input type="text" name="cantLomb" id="cantLomb">
+
+                </td>
+                <td id="lomAgr">0</td>
+              </tr>
+              <tr>
+                <td>Gr lombriz a unidad</td>
+                <td id="grAlomb">0</td>
+                <td>
+
+                  <input type="text" name="gramLomb" id="gramLomb">
+                </td>
+
+              </tr>
+            </table>
+          </div>
+
+          <div class="composteras">
+            <table>
+              <tr>
+                <td colspan="3" id="titComp">Composteras</td>
+              </tr>
+              <tr>
+                <td>Largo</td>
+                <td>Ancho</td>
+                <td>Diametro</td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="text" name="largoTam" id="largoTam">
+                </td>
+                <td>
+                  <input type="text" name="anchoTam" id="anchoTam">
+                </td>
+                <td>
+                  <input type="text" name="diametroTam" id="diamTam">
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <select id="opSup">
+                    <option value="">Composteras caseras</option>
+                    <option value="615">Balde 20 lts</option>
+                    <option value="1426">Cajon verdura</option>
+                    <option value="2826">Tacho (vertical) 200 lts</option>
+                    <option value="5400">Tacho (horizontal) 200 lts</option>
+
+                  </select>
+
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="datosRes" id="resu">
+            <table>
+              <tr id="datos">
+                <td>Datos</td>
+                <td>Min (gramos)</td>
+                <td>Max (gramos)</td>
+              </tr>
+              <tr>
+                <td>Cant. Lombrices</td>
+                <td id="LombMin"></td>
+                <td id="LombMax"></td>
+              </tr>
+
+
+              <tr>
+                <td>Cant. Comida semanal</td>
+                <td id="comMin"></td>
+                <td id="comMax"></td>
+              </tr>
+              <tr>
+
+                <td colspan="3">Proyeccion de reproduccion (gramos) </td>
+
+
+              </tr>
+
+              <tr>
+                <td>Mes 3</td>
+                <td>Mes 6</td>
+                <td>Mes 9</td>
+              </tr>
+
+              <tr>
+                <td id="proyec1">0</td>
+                <td id="proyec2">0</td>
+                <td id="proyec3">0</td>
+              </tr>
+            </table>
+          </div>
+
+        </div>
+
+        <div class="base">
+
+
+          <a class="btn btn-calc" href="#resu" id="calcular">CALCULAR</a>
+        </div>
+
+      </div>
+
+      <div id="infoCalc">
+        <h2>Como usar la calculadora</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati libero atque at pariatur adipisci sed
+          sunt iusto modi. Corrupti unde nemo dignissimos ipsa? Qui sed, suscipit nisi nam rem debitis.</p>
+      </div>
+
+
+
+    </section>
+
+    
     <!-- MERCADITO-->
     <section id="mercado">
       <div class=" col alert-light p-4">
@@ -440,7 +593,7 @@
                 <p class="card-text">Mas de 550 lombrices. Maxima población para el pequeño compostador. Producí
                   montones de humus al mes! Incluye manual de uso básico/avanzado por mail/whatsapp.</p>
                 <button type="button" class="btn btn-merc">
-                  <a href="" title="" target="_blank" rel="noopener">-</a>
+                  <a href="" title="" target="_blank" rel="noopener">AGOTADO</a>
                 </button>
               </div>
             </div>
@@ -450,140 +603,9 @@
       </div>
     </section>
 
-    <!-- CAlCULADORA-->
-    <section id="calculadora" class="card">
-
-      <div class="converCalc">
-        <h2>Calculadora de lombrices</h2>
 
 
-      </div>
-
-
-      <div class="tab">
-
-        <div class="conv">
-          <table><tr>
-          <td colspan="3" id="titConv">Conversor lombrices a gramos de lombriz. </td>
-          
-          </tr>
-          <tr>
-          <td></td>
-          <td>Unidad</td>
-          <td>Gramos</td>
-          </tr>
-          <tr>
-          <td>Lombrices x gr.</td>
-          <td>
-          <input type="text" name="cantLomb" id="cantLomb">
-          
-          </td>
-          <td id="lomAgr">0</td>
-          </tr>
-          <tr>
-          <td>Gr lombriz a unidad</td>
-          <td id="grAlomb">0</td>
-          <td>
-          
-          <input type="text" name="gramLomb" id="gramLomb">
-          </td>
-          
-          </tr></table>
-        </div>
-
-        <div class="composteras">
-          <table><tr>
-          <td colspan="3" id="titComp">Composteras</td>
-          </tr>
-          <tr>
-          <td>Largo</td>
-          <td>Ancho</td>
-          <td>Diametro</td>
-          </tr>
-          <tr>
-          <td>
-          <input type="text" name="largoTam" id="largoTam">
-          </td>
-          <td>
-          <input type="text" name="anchoTam" id="anchoTam">
-          </td>
-          <td>
-          <input type="text" name="diametroTam" id="diamTam">
-          </td>
-          </tr>
-          <tr>
-          <td colspan="3">
-          <select id="opSup">
-          <option value="">Composteras caseras</option>
-          <option value="615">Balde 20 lts</option>
-          <option value="1426">Cajon verdura</option>
-          <option value="2826">Tacho (vertical) 200 lts</option>
-          <option value="5400">Tacho (horizontal) 200 lts</option>
-          
-          </select>
-          
-          </td>
-          </tr></table>
-        </div>
-
-        <div class="datosRes" id="resu">
-          <table><tr id="datos">
-          <td>Datos</td>
-          <td>Min (gramos)</td>
-          <td>Max (gramos)</td>
-          </tr>
-          <tr>
-          <td>Cant. Lombrices</td>
-          <td id="LombMin"></td>
-          <td id="LombMax"></td>
-          </tr>
-          
-          
-          <tr>
-          <td>Cant. Comida semanal</td>
-          <td id="comMin"></td>
-          <td id="comMax"></td>
-          </tr>
-          <tr>
-          
-          <td colspan="3">Proyeccion de reproduccion (gramos) </td>
-          
-          
-          </tr>
-          
-          <tr>
-          <td>Mes 3</td>
-          <td>Mes 6</td>
-          <td>Mes 9</td>
-          </tr>
-          
-          <tr>
-          <td id="proyec1">0</td>
-          <td id="proyec2">0</td>
-          <td id="proyec3">0</td>
-          </tr></table>
-        </div>
-
-      </div>
-
-      <div class="base">
-
-
-        <a class="btn btn-primary" href="#resu" id="calcular">CALCULAR</a>
-      </div>
-
-
-    </section>
-
-
-
-
-
-
-
-
-
-
+    <!-- FOOTER -->
     <footer class="align-content-center">
       <div class="foot">
         <ul id="mapa">
