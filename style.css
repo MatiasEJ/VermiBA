@@ -22,9 +22,8 @@ body {
 
 /* MEDIA QUERYS */
 /* For mobile phones: */
-@media (min-width: 330px){
-    
-}
+@media (min-width: 330px) {}
+
 @media (max-width: 576px) {
 
     /* [class*="col-"] {
@@ -73,9 +72,20 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-    .cuerpo{
+    .elface {
+        margin: auto;
+        /* text-align: center; */
+        /* width: max-content; */
+        display: flex;
+        width: 90%;
+        justify-content: center;
+    }
+
+
+    .cuerpo {
         width: 70%;
     }
+
     .imgWeb {
         width: 38%;
         display: block;
@@ -172,18 +182,23 @@ img {
     margin-right: auto;
 }
 
+
 .card {
     height: 100%;
     /* margin: 3%; */
     /* padding: 3%; */
     border-radius: 45px;
-    padding-top: 5%;
-    margin-top: 3%;
+    padding-top: 3%;
     /* border: 2px; */
     background-color: #dbf1e5;
     background-clip: border-box;
     border: 2px solid rgba(35, 184, 138, 0.39);
+    width: fit-content;
+    /* justify-content: center; */
+    /* display: flex; */
+    margin: 2% auto;
 }
+
 
 #vermicultura,
 #porque,
@@ -213,7 +228,8 @@ img {
 #nosotros ul {
     margin: 0 10%;
 }
-h2{
+
+h2 {
     font-family: 'Amatic SC', cursive;
     font-size: 2.8rem;
 }
@@ -592,6 +608,7 @@ textarea {
     font-size: inherit;
     line-height: inherit;
     border-radius: 14px;
+    text-align: center;
 }
 
 .alert-success {
@@ -607,6 +624,7 @@ textarea {
     display: flex;
     /* width: 90%; */
     justify-content: center;
+    transform: scale(0.8);
 }
 
 
@@ -632,11 +650,11 @@ textarea {
     text-shadow: 1px 2px 1px #ca1818;
 }
 
-.btn-calc{
+.btn-calc {
     box-shadow: 2px 3px 0px 2px #9c27b038;
     border: 3px #651b1b57;
     border-style: groove;
-    transform: matrix(1.4, 0, 0, 1.4, 0, 18);
+    /* transform: matrix(1.4, 0, 0, 1.4, 0, 18); */
     background-color: #d5a6a6;
     font-family: auto;
     color: whitesmoke;
@@ -686,15 +704,16 @@ button::after {
     /* grid-area: c; */
     /* padding: 5%; */
     padding-top: 0%;
-    /* margin-top: 5%; */
+    margin: auto;
+    margin-top: 0%;
     display: grid;
     grid-template:
         "t"
         "tab"
-        "b" /1fr;
+        "b"/1fr;
     font-size: 0.9rem;
     font-family: 'Montserrat', sans-serif;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .converCalc {
@@ -711,7 +730,7 @@ button::after {
         "conv"
         "compos"
         "datos"
-    /1fr;
+        /1fr;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -723,28 +742,30 @@ button::after {
     box-shadow: 5px 6px 0px 2px #f1574fa3;
 }
 
-.conv{
-    grid-area:conv;
-    justify-content: center;
-    display: flex;
-}
-.composteras{
-    grid-area: compos;
-    
+.conv {
+    grid-area: conv;
     justify-content: center;
     display: flex;
 }
 
-.datosRes{
+.composteras {
+    grid-area: compos;
+
+    justify-content: center;
+    display: flex;
+}
+
+.datosRes {
     grid-area: datos;
     justify-content: center;
     display: flex;
 }
 
-#titComp{
+#titComp {
     background-color: #9fec9f;
 }
-#titConv{
+
+#titConv {
     background-color: #9fec9f;
 }
 
@@ -753,10 +774,10 @@ button::after {
 .base {
     grid-area: b;
     display: grid;
-    
+
     justify-content: center;
     text-align: center;
-   
+
     border-radius: 47px;
     margin-bottom: 4%;
 }
@@ -768,14 +789,15 @@ button::after {
     /* grid-template:
         "c i"; */
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(800px, 1.5fr));
 }
-#infoCalc{
+
+#infoCalc {
     /* grid-area: i; */
     align-self: center;
-    padding: 5%;
+    padding: 10%;
     /* display: grid; */
-    width: 300px;
+    width: auto;
 }
 
 

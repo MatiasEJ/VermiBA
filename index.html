@@ -171,13 +171,14 @@
             <img class="img-fluid imgWeb" src="/img/grafics.png" alt="grafique">
             <small>¡Miralas trabajar!</small>
           </h2>
-          <div class="frame">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/6em_8iFfKIk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+          <div class="elface">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6em_8iFfKIk" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
             <!-- <iframe width="auto" height="315" src="https://www.youtube.com/embed/V8miLevRI_o" frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
               SameSite="None"></iframe> -->
 
-            
+
           </div>
 
 
@@ -357,13 +358,15 @@
               </button>
 
             </fieldset>
-
+            <hr>
+            <p2>¿Necesitas mas info? ¿No estas seguro de como empezar? Dejanos tus dudas y las responderemos a la
+              brevedad!</p2>
           </form>
+
           <div class="col-sm">
 
 
 
-            <hr>
 
             <div class="elface">
               <!-- <iframe
@@ -381,8 +384,7 @@
 
 
 
-            <p2>¿Necesitas mas info? ¿No estas seguro de como empezar? Dejanos tus dudas y las responderemos a la
-              brevedad!</p2>
+
 
 
             <br>
@@ -399,7 +401,7 @@
 
     </section><!-- CONSULTAS CIERRE -->
 
-    
+
     <!-- CAlCULADORA-->
     <section id="calcu" class="card">
       <div id="calculadora">
@@ -531,16 +533,58 @@
       </div>
 
       <div id="infoCalc">
-        <h2>Como usar la calculadora</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati libero atque at pariatur adipisci sed
-          sunt iusto modi. Corrupti unde nemo dignissimos ipsa? Qui sed, suscipit nisi nam rem debitis.</p>
-      </div>
+        <h2>Porque/Como/Cuando y donde (!) usar la calculadora</h2>
+        <p>
+          El conversor nos permite saber cuantas lombrices hay en x cantidad de gramos de lombriz. Esto es super
+          importante para saber cantidades mínimas y máximas para poder empezar.
+          Muy pocas lombrices procesan poca comida, pero estar cerca de las poblaciones máximas baja la reproducción.
+          Otro punto a tener en cuenta es la superficie, esta determina la cantidad máxima de lombrices que podemos
+          tener (y por consiguiente la cantidad de comida que pueden procesar por semana). En la sección podemos
+          introducir el largo y ancho, o el diámetro de nuestra compostera, además hay algunas pre-cargadas.
+          Una vez que introducimos esos datos. Le damos a Calcular. Y nos dará las cantidades mínimas y máximas para
+          nuestra compostera, además de las conversiones que le pidamos.</p>
+          <hr>
+          <i>“Tengo un balde de 20lts, me dice que el mínimo son 150 gramos de lombriz (unas 350 lombrices) ... pero
+            solo tengo 50 lombrices ¿Qué hago? ¿Se me van a morir?¿Pido más?”</i>
+        <p>
+        Nah. Pero a tener en cuenta que 50 en un espacio tan grande (en comparación a las 350 en el mismo espacio) van
+        a consumir menos, van a tardar mas en reproducirse y…nada…eso, no es nada grave.
+        
+        </p>
+        <hr>
+        <p>
+          Lo mismo pasa con la cantidad de comida que necesitan.
+        </p>
+        
+              <i>
+              "¿500gr semanales? ¡No llego a eso!"""
+                
+              </i>
+          <p>La población se va a adaptar a la cantidad de comida que proporcionemos, además hay que contar la calidad y
+          cantidad de material marrón que ponemos, estos son una fuente importante de la alimentación y no pesan tanto.
+          
+          
+          </p>     </div>
 
 
 
     </section>
 
-    
+    <section>
+        
+        <div class="card">
+            <h1>Te puede interesar</h1>
+            <div class="elface">
+                <iframe id="postFacebook" src="" frameborder="0" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" allowTransparency="true" allow="encrypted-media"></iframe>
+              </div>
+        </div>
+        
+
+
+     
+    </section>
+
+
     <!-- MERCADITO-->
     <section id="mercado">
       <div class=" col alert-light p-4">
@@ -714,43 +758,43 @@
     }
     // ]]>
   </script>
-<!-- Code injected by live-server -->
-<script type="text/javascript">
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script></body>
+  <!-- Code injected by live-server -->
+  <script type="text/javascript">
+    // <![CDATA[  <-- For SVG support
+    if ('WebSocket' in window) {
+      (function () {
+        function refreshCSS() {
+          var sheets = [].slice.call(document.getElementsByTagName("link"));
+          var head = document.getElementsByTagName("head")[0];
+          for (var i = 0; i < sheets.length; ++i) {
+            var elem = sheets[i];
+            var parent = elem.parentElement || head;
+            parent.removeChild(elem);
+            var rel = elem.rel;
+            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+              var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+              elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+            }
+            parent.appendChild(elem);
+          }
+        }
+        var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+        var address = protocol + window.location.host + window.location.pathname + '/ws';
+        var socket = new WebSocket(address);
+        socket.onmessage = function (msg) {
+          if (msg.data == 'reload') window.location.reload();
+          else if (msg.data == 'refreshcss') refreshCSS();
+        };
+        if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+          console.log('Live reload enabled.');
+          sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+        }
+      })();
+    } else {
+      console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+    }
+    // ]]>
+  </script>
+</body>
 
 </html>
