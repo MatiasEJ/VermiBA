@@ -130,7 +130,7 @@ body {
     #como,
     #nosotros,
     #contacto,
-    #mercado {
+    #mercado,#inte {
         padding-top: 2%;
     }
 
@@ -193,7 +193,7 @@ img {
     background-color: #dbf1e5;
     background-clip: border-box;
     border: 2px solid rgba(35, 184, 138, 0.39);
-    width: fit-content;
+    /* width: fit-content; */
     /* justify-content: center; */
     /* display: flex; */
     margin: 2% auto;
@@ -347,6 +347,8 @@ footer {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     padding-top: 4%;
+    height: px;
+    padding-bottom: 6%;
 }
 
 
@@ -618,13 +620,9 @@ textarea {
 }
 
 .elface {
-    margin: auto;
-    /* text-align: center; */
-    /* width: max-content; */
+    margin-top: 3%;
     display: flex;
-    /* width: 90%; */
     justify-content: center;
-    transform: scale(0.8);
 }
 
 

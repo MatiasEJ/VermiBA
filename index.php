@@ -92,7 +92,7 @@
   <meta name="description"
     content="Somos VermiBA, todo sobre lombricultura, como se reproducen las lombrices, como criar, como alimentar, manuales y mas. Buscanos en las redes sociales!">
   <meta name="keywords"
-    content="HTML,CSS,XML,JavaScript,vermicultura,vermicompostaje,lombriz,lombrices,lombriz roja californiana,como hacer, compost,eisenia foetida,humus, humus de lombriz">
+    content="HTML,CSS,XML,JavaScript,vermicultura,vermicompostaje,lombriz,lombrices,lombriz roja californiana,como hacer, compost,eisenia foetida,humus, humus de lombriz,calculadora de lombrices,calculadora,cantidad de lombrices">
   <meta name="author" content="VermiBA">
   <meta name="theme-color" content="#317EFB" />
 
@@ -356,11 +356,14 @@
               <button type="submit" class="btn btn-dark" value="Send">
                 <i class="fa fa-paper-plane"></i> Enviar
               </button>
-
-            </fieldset>
-            <hr>
+              <div class="col">
+                <hr>
             <p2>¿Necesitas mas info? ¿No estas seguro de como empezar? Dejanos tus dudas y las responderemos a la
               brevedad!</p2>
+              </div>
+              
+            </fieldset>
+            
           </form>
 
           <div class="col-sm">
@@ -534,7 +537,7 @@
 
       <div id="infoCalc">
         <h2>Porque/Como/Cuando y donde (!) usar la calculadora</h2>
-        <p>
+        <p class="parr">
           El conversor nos permite saber cuantas lombrices hay en x cantidad de gramos de lombriz. Esto es super
           importante para saber cantidades mínimas y máximas para poder empezar.
           Muy pocas lombrices procesan poca comida, pero estar cerca de las poblaciones máximas baja la reproducción.
@@ -547,27 +550,31 @@
           <i>“Tengo un balde de 20lts, me dice que el mínimo son 150 gramos de lombriz (unas 350 lombrices) ... pero
             solo tengo 50 lombrices ¿Qué hago? ¿Se me van a morir?¿Pido más?”</i>
         <p>
-        Nah. Pero a tener en cuenta que 50 en un espacio tan grande (en comparación a las 350 en el mismo espacio) van
-        a consumir menos, van a tardar mas en reproducirse y…nada…eso, no es nada grave.
+          <br>
+        <b>Nah. Pero a tener en cuenta que 50 en un espacio tan grande (en comparación a las 350 en el mismo espacio) van
+        a consumir menos, van a tardar mas en reproducirse y…nada…eso, no es nada grave.</b>
+          <br><br>
+        Todo dependera de nuestras necesidades, del espacio disponible y principalmente de nuestra paciencia.
         
         </p>
-        <hr>
-        <p>
-          Lo mismo pasa con la cantidad de comida que necesitan.
-        </p>
+        <hr>   </div>
+
+
+
+    </section>
+
+    <section id="inte" class="card">
         
-              <i>
-              "¿500gr semanales? ¡No llego a eso!"""
-                
-              </i>
-          <p>La población se va a adaptar a la cantidad de comida que proporcionemos, además hay que contar la calidad y
-          cantidad de material marrón que ponemos, estos son una fuente importante de la alimentación y no pesan tanto.
-          
-          
-          </p>     </div>
+        
+            <h1>Te puede interesar</h1>
+            <div class="elface">
+                <iframe id="postFacebook" src="" frameborder="0" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" allowTransparency="true" allow="encrypted-media"></iframe>
+              </div>
+        
+        
 
 
-
+     
     </section>
 
 
