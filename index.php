@@ -92,7 +92,7 @@
   <meta name="description"
     content="Somos VermiBA, todo sobre lombricultura, como se reproducen las lombrices, como criar, como alimentar, manuales y mas. Buscanos en las redes sociales!">
   <meta name="keywords"
-    content="HTML,CSS,XML,JavaScript,vermicultura,vermicompostaje,lombriz,lombrices,lombriz roja californiana,como hacer, compost,eisenia foetida,humus, humus de lombriz,calculadora de lombrices,calculadora,cantidad de lombrices">
+    content="HTML,CSS,XML,JavaScript,vermicultura,vermicompostaje,lombriz,lombrices,lombriz roja californiana,como hacer, compost,eisenia foetida,humus, humus de lombriz">
   <meta name="author" content="VermiBA">
   <meta name="theme-color" content="#317EFB" />
 

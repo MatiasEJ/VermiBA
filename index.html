@@ -7,6 +7,8 @@
     @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
     @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
     @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
   </style>
   <script>
     window['_fs_debug'] = false;
@@ -115,7 +117,7 @@
     <!--BARRA DE NAVEGACION-->
     <nav class="barraNav-top navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <a class="navbar-brand" href="#" alt="logo">
-        <img src="img/logo2.webp" class="d-inline-block align-top img-responsive col-xs-12" alt="Logo vermiba"
+        <img class="slide-in-right"src="img/logo2.webp" class="d-inline-block align-top img-responsive col-xs-12" alt="Logo vermiba"
           id="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -535,35 +537,36 @@
 
       </div>
 
-      <div id="infoCalc">
-        <h2>Porque/Como/Cuando y donde (!) usar la calculadora</h2>
-        <p class="parr">
-          El conversor nos permite saber cuantas lombrices hay en x cantidad de gramos de lombriz. Esto es super
-          importante para saber cantidades mínimas y máximas para poder empezar.
-          Muy pocas lombrices procesan poca comida, pero estar cerca de las poblaciones máximas baja la reproducción.
-          Otro punto a tener en cuenta es la superficie, esta determina la cantidad máxima de lombrices que podemos
-          tener (y por consiguiente la cantidad de comida que pueden procesar por semana). En la sección podemos
-          introducir el largo y ancho, o el diámetro de nuestra compostera, además hay algunas pre-cargadas.
-          Una vez que introducimos esos datos. Le damos a Calcular. Y nos dará las cantidades mínimas y máximas para
-          nuestra compostera, además de las conversiones que le pidamos.</p>
-          <hr>
-          <i>“Tengo un balde de 20lts, me dice que el mínimo son 150 gramos de lombriz (unas 350 lombrices) ... pero
-            solo tengo 50 lombrices ¿Qué hago? ¿Se me van a morir?¿Pido más?”</i>
-        <p>
-          <br>
-        <b>Nah. Pero a tener en cuenta que 50 en un espacio tan grande (en comparación a las 350 en el mismo espacio) van
-        a consumir menos, van a tardar mas en reproducirse y…nada…eso, no es nada grave.</b>
-          <br><br>
-        Todo dependera de nuestras necesidades, del espacio disponible y principalmente de nuestra paciencia.
-        
-        </p>
-        <hr>   </div>
+      
 
 
 
     </section>
+    <div class="card" id="infoCalc">
+      <h1>Porque/Como/Cuando (!) usar la calculadora</h1>
+      <p class="parrcalc">
+        El conversor nos permite saber cuantas lombrices hay en x cantidad de gramos de lombriz. <i>Esto es super
+        importante para saber</i> cantidades mínimas y máximas para poder empezar.
+        Muy pocas lombrices procesan poca comida, pero estar cerca de las poblaciones máximas baja la reproducción.
+        Otro punto a tener en cuenta es la superficie, <i>esta determina la cantidad máxima de lombrices que podemos
+        tener</i> (y por consiguiente la cantidad de comida que pueden procesar por semana). En la sección podemos
+        introducir el largo y ancho, o el diámetro de nuestra compostera, además hay algunas pre-cargadas.
+        Una vez que introducimos esos datos. Le damos a Calcular. Y nos dará las cantidades mínimas y máximas para
+        nuestra compostera, además de las conversiones que le pidamos.</p>
+        <hr>
+        <i>“Tengo un balde de 20lts, me dice que el mínimo son 150 gramos de lombriz (unas 350 lombrices) ... pero
+          solo tengo 50 lombrices ¿Qué hago? ¿Se me van a morir?¿Pido más?”</i>
+      <p>
+        <br>
+      <b>Nah. Pero a tener en cuenta que 50 en un espacio tan grande (en comparación a las 350 en el mismo espacio) van
+      a consumir menos, van a tardar mas en reproducirse y…nada…eso, no es nada grave.</b>
+        <br><br>
+      Todo dependera de nuestras necesidades, del espacio disponible y principalmente de nuestra paciencia.
+      
+      </p>
+      <hr>   </div>
 
-    <section id="inte" class="card">
+    <!-- <section id="inte" class="card">
         
         
             <h1>Te puede interesar</h1>
@@ -575,7 +578,7 @@
 
 
      
-    </section>
+    </section> -->
 
 
     <!-- MERCADITO-->
@@ -615,9 +618,9 @@
                   Incluye manual de uso básico/avanzado por mail/whatsapp.</p>
 
 
-                <button type="button" class="btn btn-merc" target="_blank" rel="noopener"><a
+                <button type="button" class="btn btn-merc agotado" target="_blank" rel="noopener"><a
                     href="https://articulo.mercadolibre.com.ar/MLA-813767473-lombriz-californiana-100g-mas-manual-villa-urquiza-zona-sur-_JM"
-                    title="" target="_blank" rel="noopener">COMPRAR</a></button>
+                    title="" target="_blank" rel="noopener">AGOTADO</a></button>
 
 
               </div>
@@ -631,7 +634,7 @@
                 <h5 class="card-title">Pack Pro: 200gr</h5>
                 <p class="card-text">Mas de 550 lombrices. Maxima población para el pequeño compostador. Producí
                   montones de humus al mes! Incluye manual de uso básico/avanzado por mail/whatsapp.</p>
-                <button type="button" class="btn btn-merc">
+                <button type="button" class="btn btn-merc agotado">
                   <a href="" title="" target="_blank" rel="noopener">AGOTADO</a>
                 </button>
               </div>
