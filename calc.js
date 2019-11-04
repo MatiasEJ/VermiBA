@@ -83,7 +83,7 @@ $(document).ready(function(){
 
         function reproMens(){
             let pro = proyec(ctLombMin());
-            document.getElementById("proyec1").innerHTML = pro;
+            document.getElementById("proyec1").innerHTML = pro.toFixed(1);
              
             document.getElementById("proyec2").innerHTML = proyec(pro).toFixed(1);
             

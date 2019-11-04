@@ -1,6 +1,10 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
-
+img{
+  vertical-align: middle;
+    border-style: none;
+    width: 100%;
+}
 
 .container {
   max-width: 780px;
