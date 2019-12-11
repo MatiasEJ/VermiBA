@@ -649,13 +649,13 @@ button::after {
 }
 
 #infoCalc {
-        /* grid-area: i; */
-        align-self: center;
-        padding: 10%;
-        /* display: grid; */
-        border-color: #012015;
-        width: auto;
-        background: linear-gradient(45deg, #63cd82, transparent);
+    /* grid-area: i; */
+    align-self: center;
+    padding: 10%;
+    /* display: grid; */
+    border-color: #012015;
+    width: auto;
+    background: linear-gradient(45deg, #63cd82, transparent);
 }
 
 
@@ -725,8 +725,8 @@ table {
 
 
 .slide-in-right {
-	-webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /* ----------------------------------------------
@@ -741,43 +741,52 @@ table {
  * animation slide-in-right
  * ----------------------------------------
  */
- @-webkit-keyframes slide-in-right {
+@-webkit-keyframes slide-in-right {
     0% {
-      -webkit-transform: translateX(1000px);
-              transform: translateX(1000px);
-      opacity: 0;
+        -webkit-transform: translateX(1000px);
+        transform: translateX(1000px);
+        opacity: 0;
     }
-    100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  @keyframes slide-in-right {
-    0% {
-      -webkit-transform: translateX(1000px);
-              transform: translateX(1000px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  
 
-  .agotado{
-        background-color: #ff0000e6;
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-right {
+    0% {
+        -webkit-transform: translateX(1000px);
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+.agotado {
+    background-color: #ff0000e6;
     font: icon;
+}
 
-  }
-.parrcalc{
+.enStock {
+    font: icon;
+    box-shadow: 2px 4px 0px 0px #3bb9c0a8;
+    border: none;
+}
+
+.parrcalc {
     font-size: 1.5rem;
     font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-  
+
 
 @media only screen and (min-width: 768px) {
     .tab {
@@ -797,9 +806,11 @@ table {
         background: linear-gradient(-25deg, rgb(217, 229, 251), #F44336);
         box-shadow: 5px 6px 0px 2px #f1574fa3;
     }
+
     fieldset h1 {
         font-size: 2rem;
     }
+
     #logo {
         width: 110px;
     }
@@ -807,6 +818,7 @@ table {
     #eww {
         width: 170px;
     }
+
     .imgWeb {
         width: 75%;
         display: block;
@@ -815,6 +827,7 @@ table {
     #logo {
         width: 80%;
     }
+
     .elface {
         margin: auto;
         /* text-align: center; */
@@ -873,7 +886,8 @@ table {
     #como,
     #nosotros,
     #contacto,
-    #mercado,#inte {
+    #mercado,
+    #inte {
         padding-top: 2%;
         display: flex;
         justify-content: center;

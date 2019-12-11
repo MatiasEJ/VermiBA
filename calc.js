@@ -1,4 +1,4 @@
-$(document).ready(function(){
+
     let rnd = Math.floor((Math.random() * 2) + 1);
     $("#calcular").click(function() {
         let largo = document.getElementById("largoTam").value;
@@ -92,24 +92,24 @@ $(document).ready(function(){
 
 
     });
-    let postFace = document.getElementById("postFacebook");
+    // let postFace = document.getElementById("postFacebook");
 
-    let postCompostera = "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnotes%2Fvermi-ba%2Ftipos-de-lombricomposteras%2F571738813292652%2F&width=350&show_text=true&appId=195560768055084&height=551 ";
-    let postComida = "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnotes%2Fvermi-ba%2Fpreparando-la-comida%2F568198820313318%2F&width=350&show_text=true&appId=195560768055084&height=583";  
-    console.log(rnd);   
-    switch (rnd) {
-        case 1:
-            postFace.src = postCompostera;
-            break;
-        case 2:
-            postFace.src = postComida;
-            break;
-        default:
-            break;
-    }
+    // let postCompostera = "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnotes%2Fvermi-ba%2Ftipos-de-lombricomposteras%2F571738813292652%2F&width=350&show_text=true&appId=195560768055084&height=551 ";
+    // let postComida = "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnotes%2Fvermi-ba%2Fpreparando-la-comida%2F568198820313318%2F&width=350&show_text=true&appId=195560768055084&height=583";  
+    // console.log(rnd);   
+    // switch (rnd) {
+    //     case 1:
+    //         postFace.src = 'postCompostera';
+    //         break;
+    //     case 2:
+    //         postFace.src = 'postComida';
+    //         break;
+    //     default:
+    //         break;
+    // }
     
+  
 
-});
 
 
 

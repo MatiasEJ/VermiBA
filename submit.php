@@ -35,8 +35,8 @@ if(isset($_POST['url']) && $_POST['url'] == '' && $_POST['message'] != ''){
 </head>
 <body>
 
-<h1>Thanks</h1>
-<p>We'll get back to you as soon as possible.</p>
+<h1>GRACIAS POR LA CONSULTA</h1>
+<p>Intentaremos contestar a las brevedad!</p>
 <a href="https://vermiba.000webhostapp.com/" title="">Volver al sitio</a>
 
 </body>
