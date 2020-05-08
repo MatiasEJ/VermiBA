@@ -2,7 +2,7 @@
 // if the url field is empty, but the message field isn't
 if(isset($_POST['url']) && $_POST['url'] == '' && $_POST['message'] != ''){
 	// put your email address here
-	$youremail = 'don.juncos@gmail.com';
+	$youremail = '';
 	// prepare a "pretty" version of the message
 	// Important: if you added any form fields to the HTML, you will need to add them here also
 	$body = "This is the form that was just submitted:
